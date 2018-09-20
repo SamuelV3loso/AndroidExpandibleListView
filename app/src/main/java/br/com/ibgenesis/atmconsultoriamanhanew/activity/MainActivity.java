@@ -89,18 +89,17 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_principal) {
+        if (id == R.id.nav_educacao_e_saude) {
 
-            carregarFragment(new PrincipalFragment());
+            carregarFragment(new EducacaoFragment());
 
             // Handle the camera action
-        } else if (id == R.id.nav_servicos) {
+        } else if (id == R.id.nav_segurancas) {
 
             carregarFragment(new SegurancaFragment());
 
-        } else if (id == R.id.nav_clientes) {
+        } else if (id == R.id.nav_politicas_sociais) {
 
-            carregarFragment(new EducacaoFragment());
 
         } else if (id == R.id.nav_contato) {
 

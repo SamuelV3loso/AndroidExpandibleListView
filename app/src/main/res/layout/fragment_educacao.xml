@@ -7,7 +7,11 @@
     tools:context=".fragment.EducacaoFragment">
 
     <!-- TODO: Update blank fragment layout -->
-
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ExpandableListView>
 
 
 </android.support.constraint.ConstraintLayout>
