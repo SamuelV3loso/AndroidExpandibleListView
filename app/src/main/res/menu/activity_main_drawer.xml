@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_educacao_e_saude"
+            android:icon="@drawable/ic_inbox_grey_24dp"
+            android:title="Educação e Saúde " />
+        <item
+            android:id="@+id/nav_segurancas"
+            android:icon="@drawable/ic_assignment_grey_24dp"
+            android:title="Segurança" />
+        <item
+            android:id="@+id/nav_politicas_sociais"
+            android:icon="@drawable/ic_people_grey_24dp"
+            android:title="Políticas Sociais e Direitos Humanos" />
+        <item
+            android:id="@+id/nav_economia"
+            android:icon="@drawable/ic_inbox_grey_24dp"
+            android:title="Economia e Emprego" />
+        <item
+            android:id="@+id/nav_corrupcao"
+            android:icon="@drawable/ic_assignment_grey_24dp"
+            android:title="Política e Corrupção" />
+        <item
+            android:id="@+id/nav_meio_ambiente"
+            android:icon="@drawable/ic_people_grey_24dp"
+            android:title="Politica Extrerna e Meio Ambiente" />
+        tools:showIn="navigation_view"
+    </group>
+
+    <item android:title="Comunicação">
+        <menu>
+            <item
+                android:id="@+id/nav_contato"
+                android:icon="@drawable/ic_email_grey_24dp"
+                android:title="Contato" />
+            <item
+                android:id="@+id/nav_sobre"
+                android:icon="@drawable/ic_info_grey_24dp"
+                android:title="Sobre" />
+        </menu>
+    </item>
+
+</menu>
